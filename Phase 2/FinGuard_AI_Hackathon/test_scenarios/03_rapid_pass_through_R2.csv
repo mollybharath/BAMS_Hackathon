@@ -1,0 +1,3 @@
+transaction_id,timestamp,source_account,destination_account,amount,currency,channel,customer_id
+03_-001,2026-10-20 09:00:00,SENDER,BRIDGE,200000,INR,IMPS,C-SENDER
+03_-002,2026-10-20 09:12:00,BRIDGE,BENEFICIARY,180000,INR,IMPS,C-BRIDGE

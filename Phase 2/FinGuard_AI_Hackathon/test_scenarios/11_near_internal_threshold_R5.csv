@@ -1,0 +1,4 @@
+transaction_id,timestamp,source_account,destination_account,amount,currency,is_new_beneficiary
+TX-001,2026-10-20 09:00:00,PAY,X,95000,INR,false
+TX-002,2026-10-20 10:00:00,PAY,Y,97000,INR,false
+TX-003,2026-10-20 11:00:00,PAY,Z,99000,INR,false
