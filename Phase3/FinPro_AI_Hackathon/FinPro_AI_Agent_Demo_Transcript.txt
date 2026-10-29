@@ -1,0 +1,20 @@
+FinPro AI Agent Demo
+Approximate duration: 1 minute 35 seconds
+
+Scene 1 - Introduction
+Welcome to FinPro AI, a local-first agentic investigation workspace for synthetic financial transaction demos.
+
+Scene 2 - Case data
+Load sample data or import a batch CSV with transaction IDs, timestamps, accounts, amount and currency. FinPro validates the records before investigation.
+
+Scene 3 - Triage rules
+The deterministic triage engine checks six illustrative monitoring rules: inbound concentration, rapid outflow, payment velocity, circular transfers, repeated near-threshold payments, and explicitly flagged new beneficiaries. Scores support review; they are not probabilities.
+
+Scene 4 - Agent workflow
+A bounded planner runs transaction and network analysis, correlates findings to source transaction IDs, and checks references before drafting a report. Each step shows its action, status and summary.
+
+Scene 5 - Evidence and investigation
+Open Transactions, Evidence Linked, or Review Findings for details. Follow an evidence ID to its transaction, and open an agent step to inspect related records. The account network, context gaps and alternative explanations help investigators examine signals.
+
+Scene 6 - Human review and scope
+An authorized reviewer records a decision and rationale. Everything runs locally by default, with no external model calls. An optional local Ollama model can draft a summary, but cannot change the score or evidence. FinPro is a synthetic-data prototype, not a real-time monitor or production AML decision system.

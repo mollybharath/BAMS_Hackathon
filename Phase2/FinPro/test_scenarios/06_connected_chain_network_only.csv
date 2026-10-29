@@ -1,0 +1,4 @@
+transaction_id,timestamp,source_account,destination_account,amount,currency,channel,customer_id
+06_-001,2026-10-20 09:00:00,C1,C2,20000,INR,IMPS,C-C1
+06_-002,2026-10-20 11:00:00,C2,C3,18000,INR,IMPS,C-C2
+06_-003,2026-10-20 13:00:00,C3,C4,16000,INR,IMPS,C-C3

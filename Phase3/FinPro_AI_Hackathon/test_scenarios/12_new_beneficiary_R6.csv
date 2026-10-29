@@ -1,0 +1,2 @@
+transaction_id,timestamp,source_account,destination_account,amount,currency,is_new_beneficiary
+TX-001,2026-10-20 09:00:00,A,NEWPAYEE,175000,INR,true
